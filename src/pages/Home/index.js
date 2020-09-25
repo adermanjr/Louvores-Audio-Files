@@ -88,8 +88,8 @@ function Home() {
 
     if ('mediaSession' in navigator) {
       console.log('mediaSession');
-      navigator.mediaSession.setActionHandler('previoustrack', function() {handleChangeAudio('previous')});
-      navigator.mediaSession.setActionHandler('nexttrack', function() {handleChangeAudio('next')});
+      navigator.mediaSession.setActionHandler('previoustrack', () => handleChangeAudio('previous'));
+      navigator.mediaSession.setActionHandler('nexttrack', () => handleChangeAudio('next'));
     }
 
   }, []);

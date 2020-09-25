@@ -1,0 +1,48 @@
+{
+  "categorias": [
+    {
+      "id":"0",
+      "titulo": "Novos",
+      "cor": "#4223B3",
+      "link_extra": {
+        "text": "Novas gravações",
+        "url": ""
+      },
+      "videos": [
+        {
+          "id": "0",
+          "categoriaId": "0",
+          "titulo": "Work In Order",
+          "src": "http://picdn.net/shutterstock/audio/397361/preview/preview.mp3",
+          "imgPath": "00.png",
+          "imgSrc": "VafSG0_aPyk"
+        },
+        {
+          "id": "1",
+          "categoriaId": "0",
+          "titulo": "Technology",
+          "src": "http://picdn.net/shutterstock/audio/429215/preview/preview.mp3",
+          "imgPath": "01.png",
+          "imgSrc": "WJkZ_07G4Xo"
+        },
+        {
+          "id": "2",
+          "categoriaId": "0",
+          "titulo": "Gateway",
+          "src": "http://picdn.net/shutterstock/audio/397292/preview/preview.mp3",
+          "imgPath": "02.png",
+          "imgSrc": "Schabbu8l68"
+        },
+        {
+          "id": "3",
+          "categoriaId": "0",
+          "titulo": "Lovely Day",
+          "src": "http://picdn.net/shutterstock/audio/423269/preview/preview.mp3",
+          "imgPath": "03.png",
+          "imgSrc": "zbk4Gr0KzeY"
+        }
+      ]
+    }
+  ]
+}
+   

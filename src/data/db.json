@@ -1,0 +1,40 @@
+{
+  "categorias": [
+    {
+      "id":"0",
+      "titulo": "Bichos",
+      "cor": "#4223B3",
+      "link_extra": {
+        "text": "Novas gravações",
+        "url": ""
+      },
+      "videos": [
+        {
+          "id": "0",
+          "categoriaId": "0",
+          "titulo": "Bird",
+          "src": "0birds.mp3",
+          "imgPath": "0bird.jpg",
+          "imgSrc": "VafSG0_aPyk"
+        },
+        {
+          "id": "1",
+          "categoriaId": "0",
+          "titulo": "Horse",
+          "src": "1horse.mp3",
+          "imgPath": "1horse.jfif",
+          "imgSrc": "WJkZ_07G4Xo"
+        },
+        {
+          "id": "2",
+          "categoriaId": "0",
+          "titulo": "Wind",
+          "src": "2wind.mp3",
+          "imgPath": "2wind.jpg",
+          "imgSrc": "Schabbu8l68"
+        }
+      ]
+    }
+  ]
+}
+   

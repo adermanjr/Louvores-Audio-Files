@@ -1,0 +1,15 @@
+{
+    "currentPlayList": {
+      "playlistCoverUrl": "VafSG0_aPyk",
+      "playlistName": "playlist name",
+      "bandName": "",
+      "songs": [
+        {
+          "position": "1",
+          "songName": "Trangalhadanças",
+          "songUrl": "../../assets/audio/01-trangalhadancas.mp3"
+        }
+      ],
+      "type": "album"
+    }
+}

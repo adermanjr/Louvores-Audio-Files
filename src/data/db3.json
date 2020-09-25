@@ -1,0 +1,52 @@
+{
+  "categorias": [
+    {
+      "id":"0",
+      "titulo": "Novos",
+      "cor": "#4223B3",
+      "link_extra": {
+        "text": "Novas gravações",
+        "url": ""
+      },
+      "videos": [
+        {
+          "id": "0",
+          "categoriaId": "0",
+          "titulo": "Risin' High (feat Raashan Ahmad) - We are to answer",
+          "src": "https://521dimensions.com/song/Ancient Astronauts - Risin' High (feat Raashan Ahmad).mp3",
+          "coverBg": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
+          "imgPath": "00.png",
+          "imgSrc": "VafSG0_aPyk"
+        },
+        {
+          "id": "1",
+          "categoriaId": "0",
+          "titulo": "The Gun - Ask the Dust",
+          "src": "https://521dimensions.com/song/08 The Gun.mp3",
+          "coverBg": "https://521dimensions.com/img/open-source/amplitudejs/album-art/ask-the-dust.jpg",
+          "imgPath": "01.png",
+          "imgSrc": "WJkZ_07G4Xo"
+        },
+        {
+          "id": "2",
+          "categoriaId": "0",
+          "titulo": "Anvil",
+          "src": "https://521dimensions.com/song/LORN - ANVIL.mp3",
+          "coverBg": "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
+          "imgPath": "02.png",
+          "imgSrc": "Schabbu8l68"
+        },
+        {
+          "id": "3",
+          "categoriaId": "0",
+          "titulo": "Soon It Will Be Cold Enough - Emancipator",
+          "src": "https://521dimensions.com/song/FirstSnow-Emancipator.mp3",
+          "coverBg": "https://521dimensions.com/img/open-source/amplitudejs/album-art/soon-it-will-be-cold-enough.jpg",
+          "imgPath": "03.png",
+          "imgSrc": "zbk4Gr0KzeY"
+        }
+      ]
+    }
+  ]
+}
+   

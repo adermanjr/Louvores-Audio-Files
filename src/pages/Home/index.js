@@ -85,9 +85,12 @@ function Home() {
       if (a.titulo > b.titulo) { return 1; }
       return 0;
     }));
+  }, []);
 
+  useEffect(() => {
     if ('mediaSession' in navigator) {
       navigator.mediaSession.metadata = new window.MediaMetadata({
+        title: mediaBanner.titulo,
         artist: 'Louvores Acapela em Português',
         album: 'harmonico.org',
       });
@@ -95,7 +98,7 @@ function Home() {
       navigator.mediaSession.setActionHandler('nexttrack', () => handleChangeAudio('next'));
     }
 
-  }, []);
+  }, [handleChangeAudio]);
 
   return (
     <PageDefault paddingAll={0}>

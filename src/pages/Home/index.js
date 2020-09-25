@@ -88,7 +88,6 @@ function Home() {
 
     if ('mediaSession' in navigator) {
       navigator.mediaSession.metadata = new window.MediaMetadata({
-        title: mediaBanner.titulo,
         artist: 'Louvores Acapela em Português',
         album: 'harmonico.org',
       });

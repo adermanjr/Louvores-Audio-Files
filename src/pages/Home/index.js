@@ -85,6 +85,12 @@ function Home() {
       if (a.titulo > b.titulo) { return 1; }
       return 0;
     }));
+
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.setActionHandler('previoustrack', handleChangeAudio('previous'));
+      navigator.mediaSession.setActionHandler('nexttrack', handleChangeAudio('next'));
+    }
+
   }, []);
 
   return (

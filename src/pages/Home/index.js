@@ -87,7 +87,9 @@ function Home() {
     }));
 
     if ('mediaSession' in navigator) {
-      console.log('mediaSession');
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: mediaBanner.titulo
+      });
       navigator.mediaSession.setActionHandler('previoustrack', () => handleChangeAudio('previous'));
       navigator.mediaSession.setActionHandler('nexttrack', () => handleChangeAudio('next'));
     }
